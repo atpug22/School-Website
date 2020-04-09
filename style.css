@@ -1,0 +1,36 @@
+body{
+    background-color:white;
+}
+.navigation{
+    list-style-type: none;
+    margin:0;
+    padding:0px;
+    background-color: #dddddd;
+}
+div{
+    margin: auto;
+    width:1000px;
+}
+header{
+    background-color: #f1f1f1;
+}
+#logo{
+    float:left;
+    width: 200px;
+}
+#search{
+    width:12px;
+}
+h1{
+    text-align: center;
+}
+li {
+    display: inline-block;
+    padding: 18px 8px;
+    
+    
+}
+li:hover{
+    color: white;
+    background-color: black;
+}
