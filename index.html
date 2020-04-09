@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
         <title>SHCS</title>
     </head>
     <body>
@@ -13,20 +14,56 @@
                 <h1>SACRED HEART CONVENT SCHOOL</h1>
                 <img id="logo" src="logo-copy.jpg" alt="school logo">
                 <ul class="navigation">
-                    <li id="navigtaion">Home</li>
-                    <li id="navigtaion">About us</li>
-                    <li id="navigtaion">Rules</li>
-                    <li id="navigtaion">Students List</li>
-                    <li id="navigtaion">Results</li>
-                    <li id="navigtaion">Photo Gallery</li>
-                    <li id="navigtaion">Events</li>
-                    <li id="navigtaion">Toppers</li>
-                    <li id="navigtaion">Contact us</li>
-                    <li id="navigtaion"><img id="search" src="search.png"></li>
-
-
+                    <li class="navitem">Home</li>
+                    <li class="navitem">About us</li>
+                    <li class="navitem">Rules</li>
+                    <li class="navitem">Students List</li>
+                    <li class="navitem">Results</li>
+                    <li class="navitem">Photo Gallery</li>
+                    <li class="navitem">Events</li>
+                    <li class="navitem">Toppers</li>
+                    <li class="navitem">Contact us</li>
+                    <li class="navitem"><img id="search" src="search.png"></li>
                 </ul>
             </header>
+            <div class="home">
+                <h2>Home</h2>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="1.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="2.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="3.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="4.jpg" style="width:100%">
+                      </div>
+                      <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="5.jpg" style="width:100%">
+                      </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+
+                  </div>
+            </div>
         </div>
         <script src="js.js"></script> 
     </body>
